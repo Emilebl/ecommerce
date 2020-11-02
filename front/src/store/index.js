@@ -1,23 +1,15 @@
-/* eslint-disable */
-
 import Vue from 'vue'
 import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-export default new Vuex.Store ({
-    state: {
-        currentValue: 0
-    },
-    mutations: {
-        INCREMENT_COUNTER(state) {
-            state.currentValue = state.currentValue + 10;
-        },
-        DECREMENT_COUNTER(state) {
-            state.currentValue = state.currentValue - 10;
-        }
-    },
-    actions: {
-
-    }
+export default new Vuex.Store({
+  state: {
+  },
+  mutations: {
+  },
+  actions: {
+  },
+  modules: {
+  }
 })
